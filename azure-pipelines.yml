@@ -15,5 +15,5 @@ steps:
 
 - script: |
     echo Add other tasks to build, test, and deploy your project.
-    echo See https://aka.ms/yaml
+    echo See https://github.com/nigakash05/Vnet1/tree/master/Terraform1/Terraform
   displayName: 'Run a multi-line script'
