@@ -18,7 +18,7 @@ steps:
     echo See https://aka.ms/yaml
 - task: PublishBuildArtifacts@1
   inputs:
-    PathtoPublish: 'Terraform 1'
+    PathtoPublish: 'https://github.com/nigakash05/Vnet1/tree/master/Terraform1/Terraform'
     ArtifactName: 'drop'
     publishLocation: 'Container'
   displayName: 'Run a multi-line script'
