@@ -16,4 +16,9 @@ steps:
 - script: |
     echo Add other tasks to build, test, and deploy your project.
     echo See https://aka.ms/yaml
+- task: PublishBuildArtifacts@1
+  inputs:
+    PathtoPublish: 'Terraform 1'
+    ArtifactName: 'drop'
+    publishLocation: 'Container'
   displayName: 'Run a multi-line script'
